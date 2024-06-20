@@ -1,9 +1,11 @@
+// utils/constants.js
+
 exports.RECLAIM_PROVIDER_ID = {
-  twitter: 'TWITTER_ANALYTICS_VIEWS',
-  github: 'GITHUB_ACCOUNT_VERIFICATION',
-}
+  newIntegration: 'NEW_INTEGRATION_SERVICE',
+  gamingAchievements: 'GAMING_ACHIEVEMENTS_SERVICE',  // Add this line
+};
 
 exports.RECLAIM_APP_ID = {
-  TWITTER_ANALYTICS_VIEWS: 'your-twitter-app-id',
-  GITHUB_ACCOUNT_VERIFICATION: 'your-github-app-id',
-}
+  NEW_INTEGRATION_SERVICE: 'your-new-integration-app-id',
+  GAMING_ACHIEVEMENTS_SERVICE: 'your-gaming-achievements-app-id',  // Add this line
+};
